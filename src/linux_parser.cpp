@@ -256,7 +256,7 @@ string LinuxParser::Ram(int pid) {
     stream.close();
   }
 
-  return 0;
+  return string();
 }
 
 // DONE: Read and return the user ID associated with a process
