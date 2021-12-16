@@ -5,6 +5,7 @@
 
 // DONE: Return the aggregate CPU utilization
 float Processor::Utilization() {
+  // https://stackoverflow.com/questions/23367857/accurate-calculation-of-cpu-usage-given-in-percentage-in-linux
   // user  nice  system  idle  iowait  irq  softirq  steal  guest guest_nice
   // 74608  2520  24433  1117073  6176  4054  0      0      0     0
 
